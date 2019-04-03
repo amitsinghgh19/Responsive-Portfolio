@@ -91,23 +91,24 @@ nav a {
   /* padding-left: 16px;
   margin-left: 16px; */
   line-height: 18px;
-  color: #999;
+  color:black;
   text-align: center;
   text-decoration: none;
   /* border-left: 1px solid #efefef; */
 }
 
   nav a:hover { 
-    background-color: #4aaaa5; 
+    background-color: lightblue;
     /* padding: 16px 16px; */
-    color: #ffffff;
+    color:black;
    }
   
-  /* nav a:active {
-    background-color: lightblue; 
+  nav a.active {
+    
+    background-color: #4aaaa5;  
     font-weight: 500;
     padding: 16px 16px;
-  } */
+  }
 
 nav a:first-child {
   border-left: 0 none;
